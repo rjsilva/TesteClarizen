@@ -25,7 +25,7 @@ public class Teste {
 		drive.get("https://app2.clarizen.com/Clarizen/Pages/Service/Login.aspx?ReturnUrl=%2fClarizen%2fTeamSpace%2fTimesheet");
 		
 		drive.findElement(By.id("txtLogin")).sendKeys("ronaldo.silva@yaman.com.br");
-		drive.findElement(By.id("txtPassword")).sendKeys("wx0985a1983");
+		drive.findElement(By.id("txtPassword")).sendKeys("wx0985a1986");
 		drive.findElement(By.id("lbtLogin")).click();
 	}
 }
